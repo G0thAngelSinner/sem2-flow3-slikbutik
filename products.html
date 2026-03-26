@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/mgw1gif.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slikbutik</title>
+  </head>
+  <script
+    src="https://kit.fontawesome.com/fc5b66fd42.js"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <!--navbar-->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Candy Store</a>
+
+      <a href="contact.html">Contact</a>
+      <a href="#">About Us</a>
+      <a href="products.html" style="background-color: #70c1e1">Products</a>
+      <a href="index.html">Home</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!--end navbar-->
+    <!--hero image-->
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Candy Store</h1>
+        <h2>The best candy shop in town!</h2>
+      </div>
+    </div>
+    <!--end hero image-->
+
+    <!--content-->
+    <div class="header">
+      <h1>Our selection</h1>
+    </div>
+    <!--slideshows-->
+    <div class="product-content">
+      <!--first product slide-->
+      <div class="product-slides">
+        <div class="slideshow-container">
+          <div class="slide">
+            <img class="slide-img" src="img/gummybears.jpg" alt="Image 1" />
+          </div>
+          <div class="slide">
+            <img class="slide-img" src="img/gummybears2.jpg" alt="Image 2" />
+          </div>
+          <div class="slide">
+            <img class="slide-img" src="img/gummybears3.jpg" alt="Image 3" />
+          </div>
+          <a id="previous" class="previous">&#10094;</a>
+          <a id="next" class="next">&#10095;</a>
+        </div>
+        <div class="product-text">
+          <div class="product-text-header">
+            <h2>Gummy Bears</h2>
+          </div>
+          <div class="product-weight">
+            <h3>500g</h3>
+          </div>
+          <p>
+            Our gummy bears are made with the finest ingredients and come in a
+            variety of flavors. Perfect for satisfying your sweet tooth!
+          </p>
+
+          <div class="product-text-list">
+            <h3>Available Flavors:</h3>
+            <ul>
+              <li>Raspberry</li>
+              <li>Orange</li>
+              <li>Strawberry</li>
+              <li>Apple</li>
+              <li>Grape</li>
+            </ul>
+          </div>
+
+          <div class="addtocart">
+            <select id="options">
+              <option value="">Please select a flavor</option>
+              <option value="1">Raspberry</option>
+              <option value="2">Orange</option>
+              <option value="3">Strawberry</option>
+              <option value="3">Apple</option>
+              <option value="3">Grape</option>
+            </select>
+            <select id="options">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="3">4</option>
+              <option value="3">5</option>
+            </select>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="spacer"></div> -->
+      <div class="sqiggle">
+        <img src="img/sqiggle.svg" alt="" />
+      </div>
+
+      <!--second product slide-->
+      <div class="product-slides">
+        <!--product text-->
+        <div class="product-text">
+          <div class="product-text-header">
+            <h2>Gummy Worms</h2>
+          </div>
+          <div class="product-weight">
+            <h3>500g</h3>
+          </div>
+          <p>
+            Our gummy worms are made with the finest ingredients and come in a
+            variety of flavors. Perfect for satisfying your sweet (or sour)
+            tooth!
+          </p>
+
+          <div class="product-text-list">
+            <h3>Available Flavors:</h3>
+            <ul>
+              <li>Lemon & Raspberry</li>
+              <li>Orange & Lime</li>
+              <li>Strawberry & Pineapple</li>
+              <li>Grape & Cherry</li>
+            </ul>
+          </div>
+          <div class="addtocart">
+            <select id="options">
+              <option value="">Please select a flavor</option>
+              <option value="1">Lemon & Raspberry</option>
+              <option value="2">Orange & Lime</option>
+              <option value="3">Strawberry & Pineapple</option>
+              <option value="3">Grape & Cherry</option>
+            </select>
+            <select id="options">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="3">4</option>
+              <option value="3">5</option>
+            </select>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <!--slideshow-->
+        <div class="slideshow-container">
+          <div class="slide">
+            <img class="slide-img" src="img/gummyworms.jpg" alt="Image 1" />
+          </div>
+          <div class="slide">
+            <img class="slide-img" src="img/gummyworms2.jpg" alt="Image 2" />
+          </div>
+          <div class="slide">
+            <img class="slide-img" src="img/gummyworms3.jpg" alt="Image 3" />
+          </div>
+          <a id="previous" class="previous">&#10094;</a>
+          <a id="next" class="next">&#10095;</a>
+        </div>
+      </div>
+    </div>
+    <!--end slideshows-->
+  </body>
+  <script src="script.js"></script>
+</html>
